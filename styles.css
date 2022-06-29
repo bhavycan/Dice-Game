@@ -1,0 +1,64 @@
+body{
+    background-color: purple;
+}
+
+
+.heading{
+    text-align: center;
+    padding: 3% 14%;
+}
+
+
+h1{
+    font-family: 'Modern Antiqua', cursive;
+    margin: 3%;
+    font-size: 5rem;
+    color: yellow;
+    
+}
+
+h2{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 3% ;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+hr{
+
+  border-style: dotted none none;
+ border-color: white;
+ border-width: 20px;
+ width: 14%;
+margin: auto;
+}
+
+
+.images{
+    padding: 0% 31%;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    color: yellow;
+}
+
+.images img{
+    width: 50%;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 7%;
+
+}
+
+.images img:hover{
+  
+    transform: rotate(135deg);
+
+}
+
+.messages{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Modern Antiqua', cursive;
+    color: yellow;
+}
+
