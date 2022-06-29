@@ -45,7 +45,8 @@ margin: auto;
 .images img{
     width: 50%;
     transition: all 0.5s ease-in-out;
-    margin-bottom: 7%;
+    margin-top: 10%;
+    margin-bottom: 20%;
 
 }
 
@@ -62,3 +63,16 @@ margin: auto;
     color: yellow;
 }
 
+
+#button-roll{
+    color: white;
+   font-size: 2rem;
+   border-color: white;
+   transition: all 0.5s ease-in-out;
+}
+
+#button-roll:hover{
+   
+   font-size: 3rem;
+
+}
