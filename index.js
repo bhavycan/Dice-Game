@@ -55,6 +55,8 @@ else{
 
 document.querySelector('.messages p').innerHTML = message;
 
+
+
 }
 
 
@@ -62,7 +64,21 @@ button.addEventListener("click", rollDice);
 document.querySelector('#button-roll').addEventListener("click",function(){
     var audio = new Audio('Audio/audio1.mp3');
     audio.play();
-   this.innerHTML =  "Try Again";
+    setTimeout(function(){
+    document.querySelectorAll('img')[0].style.transition ="all ease-in-out 0.5s";
+    document.querySelectorAll('img')[0].style.transform ="rotate(0deg)";
+    document.querySelectorAll('img')[0].style.width ="50%";
+    document.querySelectorAll('img')[1].style.transform ="rotate(0deg)";
+    document.querySelectorAll('img')[1].style.transition ="all ease-in-out 0.5s";
+    document.querySelectorAll('img')[1].style.width ="50%";
+    document.querySelector('.messages p').innerHTML = "";
+    document.querySelectorAll('img')[0].setAttribute("src","images/dice1.png");
+    document.querySelectorAll('img')[1].setAttribute("src","images/dice1.png");
 
-
+    },2000);
 })
+
+
+
+
+
